@@ -9,6 +9,9 @@ Vue.createApp({
   methods: {
     generateRandomNumber() {
       return Math.random()
+    },
+    calculateAge() {
+      return this.age + 5
     }
   }
 }).mount('#assignment')
